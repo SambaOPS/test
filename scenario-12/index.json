@@ -1,0 +1,14 @@
+{
+  "title": "CKA Lab 12: Ingress Configuration",
+  "description": "Create Service and Ingress for an existing deployment",
+  "details": {
+    "intro": { 
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" },
+  "time": "12 minutes"
+}

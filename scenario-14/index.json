@@ -1,0 +1,14 @@
+{
+  "title": "CKA Lab 14: StorageClass Configuration",
+  "description": "Create and configure StorageClass as default",
+  "details": {
+    "intro": { 
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" },
+  "time": "10 minutes"
+}

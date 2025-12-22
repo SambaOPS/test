@@ -1,0 +1,15 @@
+{
+  "title": "CKA Lab 01: MariaDB Persistent Volume Recovery",
+  "description": "Recover a MariaDB deployment by recreating PVC and reusing existing PersistentVolume",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      { "text": "step1.md", "verify": "verify.sh" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "time": "15 minutes"
+}

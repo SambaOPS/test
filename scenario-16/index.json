@@ -1,0 +1,11 @@
+{
+  "title": "CKA Lab 16: NodePort Service",
+  "description": "Configure deployment ports and create NodePort service",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" },
+  "time": "10 minutes"
+}

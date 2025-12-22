@@ -1,0 +1,11 @@
+{
+  "title": "CKA Lab 13: Network Policy Selection",
+  "description": "Analyze and apply the least permissive NetworkPolicy",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" },
+  "time": "15 minutes"
+}

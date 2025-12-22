@@ -1,0 +1,14 @@
+{
+  "title": "CKA Lab 02: ArgoCD Installation with Helm",
+  "description": "Install ArgoCD using Helm and generate manifests without CRDs",
+  "details": {
+    "intro": { 
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" },
+  "time": "10 minutes"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "CKA Lab 05: Horizontal Pod Autoscaler (HPA)",
+  "description": "Create and configure HPA for automatic scaling based on CPU",
+  "details": {
+    "intro": { 
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-1node" },
+  "time": "15 minutes"
+}

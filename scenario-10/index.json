@@ -1,0 +1,14 @@
+{
+  "title": "CKA Lab 10: Taints and Tolerations",
+  "description": "Configure node taints and pod tolerations",
+  "details": {
+    "intro": { 
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [{ "text": "step1.md", "verify": "verify.sh" }],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "kubernetes-kubeadm-2nodes" },
+  "time": "10 minutes"
+}
